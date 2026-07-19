@@ -1,0 +1,162 @@
+.bar{
+    display: flex;
+    gap: 1%;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: red;
+    align-items: center;
+    font-size: medium;
+
+}
+ul,li{
+    list-style-type: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-style: initial;
+}
+*{
+    margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li:hover{
+    color: white;
+}
+.link:hover{
+    color: white;
+}
+.link{
+    text-decoration: none;
+    color: red;
+}
+li:hover{
+    cursor: pointer;
+}
+.ab:hover{
+    color: white;
+}
+.ab:hover{
+    cursor: pointer;
+}
+.opt{
+    width: 100%;
+    height: 90px;
+    background-color: red;
+    display: flex;
+}
+.op{
+    padding: 10px;
+    align-items: center;
+}
+.o{
+    padding: auto;
+    align-content: center;
+}
+.greybox{
+    height: 400px;
+    width: 100%;
+    background-color: lightgray;
+}
+.tr{
+    display: flex;
+    color: red;
+    gap: 150px;
+    align-items: center;
+    align-content: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.cat{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+.catbox{
+    width: 305px;
+    height: 350px;
+    color: black;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.im{
+    width: 305px;
+    height: 300px;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: inline-block;
+}
+.cat,.catbox,.im:hover{
+    cursor: pointer;
+}
+.catbox:hover{
+    color: red;
+}
+#more:hover{
+    cursor: pointer;
+    color: red;
+}
+.user{
+    background-color: aqua;
+    opacity: 0.9;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.ub{
+    text-decoration: none;
+    color: white;
+}
+.ub:hover{
+    cursor: pointer;
+
+}
+.ui{
+    background-color: red;
+    width: 20%;
+    height: 30%;
+    align-items: center;
+    align-content: center;
+    border-radius: 4%;
+    padding: 5%;
+    margin: 1%;
+    margin-top: 4%;
+    opacity: 0.8;
+}
+.i{
+    padding-left: 10px;
+    border-radius: 4%;
+}
+.ele{
+    display: inline;
+    padding: 1%;
+    margin: 1%;
+    color: black;
+    font-size: smaller;
+}
+.ele:hover{
+    color: lightseagreen;
+    cursor: pointer;
+}
+.search{
+    text-decoration: none;
+    color: red;
+}
+.search:hover{
+    color: white;
+    cursor: pointer;
+}
+.sb{
+    width: 88%;
+    height: 40px;
+    margin: 1%;
+    text-box-edge: 10px;
+    align-content: center;
+    text-align: center;
+    border-radius: 16px;
+    font-size: large;
+}
